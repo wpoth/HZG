@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Intranet - De Hollandse Zorg Groep</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      color: #800040;
+      background: url('img/achtergrond.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+    .overlay p {
+      text-align: center;
+      font-size: 1.25rem;
+      max-width: 600px;
+      margin: 0 20px;
+    }
+
+    .logo {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      margin: 10px 0;
+    }
+
+    h3 {
+      font-size: 2.2rem;
+      margin: 10px 0 30px 0;
+    }
+
+    p {
+      font-size: 1.7rem;
+      max-width: 600px;
+      margin: 0 20px;
+    }
+
+    a {
+      color: #800040;
+      font-weight: bold;
+      text-decoration: underline;
+      font-size: 1.2rem;
+    }
+
+    h1, h2, h3, p, a {
+      font-weight: 700;
+    }
+
+
+    .button {
+      margin-top: 30px;
+      padding: 14px 28px;
+      background-color: white;
+      color: #800040;
+      border-radius: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      border: 2px solid #800040;
+      font-size: 1.3rem;
+    }
+
+    .social-icons i {
+      margin-top: 40px;
+      font-size: 40px;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      color: #800040;
+      text-decoration: none;
+    }
+
+    /* ✅ Responsive aanpassingen voor kleinere schermen */
+    @media (max-width: 768px) {
+      .logo {
+        width: 70px;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      h2 {
+        font-size: 1.6rem;
+      }
+
+      h3 {
+        font-size: 1.3rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .button {
+        font-size: 1rem;
+        padding: 12px 20px;
+      }
+
+      .social-icons {
+        font-size: 24px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .logo {
+        width: 60px;
+      }
+
+      .overlay {
+        padding: 10px;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
+
+      .button {
+        width: 100%;
+        max-width: 300px;
+      }
+
+      .social-icons {
+        font-size: 22px;
+      }
+    }
+
+  </style>
+</head>
+
+
+<body>
+<div class="overlay">
+  <img src="img/logo.png" alt="Logo" class="logo" />
+  <h1>Welkom bij</h1>
+  <h2>De Hollandse Zorg Groep</h2>
+  <h3>Intranet</h3>
+  <p>
+    Het intranet is alleen bereikbaar via ons interne netwerk.<br>
+    U bevindt zich momenteel buiten het netwerk.<br>
+    Maak verbinding met het bedrijfsnetwerk
+    of neem contact op met de IT-afdeling voor ondersteuning.
+  </p>
+  <a class="button" href="https://hollandsezorggroep.nl">GA NAAR DE WEBSITE</a>
+  <div class="social-icons">
+    <a href="https://www.facebook.com/hollandsezorggroep#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/hollandsezorggroep/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/company/hollandse-zorg-groep" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+</div>
+</body>
+</html>

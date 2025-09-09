@@ -63,3 +63,10 @@ header, footer{
     color: var(--button-primary-text-color);
 }
 
+input{
+    border-radius: 0px !important;
+}
+
+span{
+    border-radius: 0px !important;
+}
