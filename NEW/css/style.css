@@ -1,0 +1,72 @@
+:root {
+    --button-radius:
+        100px;
+    --button-padding:
+        .85em 13.6px 1em;
+    --button-primary-bg-color:
+        #a11d62;
+    --button-primary-bg-color-hover:
+        #830044;
+    --button-primary-text-color:
+        #ffffff;
+    --button-secondary-bg-color:
+        #1c99d6;
+    --button-secondary-bg-color-hover:
+        #007bb8;
+    --button-secondary-text-color:
+        #ffffff;
+    --titlebar-background:
+        #ffffff;
+    --titlebar-color:
+        #000000;
+    --titlebar-color-active:
+        #a11d62;
+    --titlebar-submenu-background:
+        #f4f4f4;
+    --titlebar-submenu-color:
+        #000000;
+    --titlebar-submenu-color-active:
+        #0a0a0a;
+    --title-bar-bottom-height:
+        58px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Tahoma", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+header>h3 {
+    text-align: start;
+    color: var(--button-primary-text-color);
+}
+
+header,
+footer {
+    padding: 10px 20px;
+    background-color: var(--titlebar-color-active);
+}
+
+.btn {
+    background-color: var(--button-primary-bg-color);
+    color: var(--button-primary-text-color);
+    border-radius: var(--button-radius);
+}
+
+.btn:active,
+.btn:hover {
+    background-color: var(--button-primary-bg-color-hover);
+    color: var(--button-primary-text-color);
+}
+
+input {
+    border-radius: 0px !important;
+}
+
+span {
+    border-radius: 0px !important;
+}
